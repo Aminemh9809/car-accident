@@ -1,9 +1,10 @@
 import React from 'react'
-import Header from '../src/pages/Header'
+import Home from '../src/pages/Home'
+import Signin from '../src/pages/Signin'
 const App = () => {
   return (
     <>
-      <Header />
+      <Home />
     </>
   )
 }
