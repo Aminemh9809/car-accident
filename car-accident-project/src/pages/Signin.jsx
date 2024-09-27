@@ -2,20 +2,7 @@ import React from 'react'
 
 const Signin = () => {
   return (
-    /*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
+
 
 <div className="font-[sans-serif]">
 <div className="min-h-screen flex flex-col items-center justify-center">

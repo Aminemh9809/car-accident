@@ -4,7 +4,7 @@ import Signin from '../src/pages/Signin'
 const App = () => {
   return (
     <>
-      <Home />
+      <Signin />
     </>
   )
 }
