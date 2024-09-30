@@ -1,9 +1,7 @@
 import React from 'react'
-import Header from './Header'
 const Home = () => {
   return (
     <> 
-    <Header />
     <main className="container mx-auto mt-8 p-4">
     <section className="text-center mb-12">Justice Rouen
 

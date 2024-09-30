@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -8,7 +9,7 @@ const Login = () => {
             <form>
               <div class="mb-12">
                 <h3 class="text-gray-800 text-3xl font-extrabold">Sign in</h3>
-                <p class="text-sm mt-4 text-gray-800">Don't have an account <a href="javascript:void(0);" class="text-blue-600 font-semibold hover:underline ml-1 whitespace-nowrap">Register here</a></p>
+                <p class="text-sm mt-4 text-gray-800">Don't have an account <Link to ="/Signin" class="text-blue-600 font-semibold hover:underline ml-1 whitespace-nowrap">Register here</Link></p>
               </div>
 
               <div>
