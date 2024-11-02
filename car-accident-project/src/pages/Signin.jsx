@@ -53,6 +53,13 @@ const Signin = () => {
             </svg>
           </div>
         </div>
+        <div className="mt-8">
+          <label className="text-gray-800 text-xs block mb-2">Confirm password</label>
+          <div className="relative flex items-center">
+            <input name="password" type="password" required className="w-full text-gray-800 text-sm border-b border-gray-300 focus:border-blue-600 px-2 py-3 outline-none" placeholder="Enter password" />
+            
+          </div>
+        </div>
 
         <div className="flex flex-wrap items-center justify-between gap-4 mt-8">
           <div className="flex items-center">
